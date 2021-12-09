@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>ミックスモンスター</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+        <!-- レスポンシブ対応 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 col-md-5"></div>
+                <div class="col-xs-8 col-md-5"></div>
+                <div class="hidden-xs col-md-2"></div>
+            </div>
+        </div>
+        
+     <!-- monsters -->
+     <div id="monsters" class="panel">
+        <div class="monster">
+            <p><img id="monster" onmouseover = "changeIMG()" src="img/egg1.png"></p>
+            
+        </div>
+    </div>
+    <!-- /monsters -->
+    
+    <div id="resultpanel">
+        <h1 id="result"></h1>
+        <p id="result_text1"></p>
+        <p id="result_text2"></p>
+        <p id="result_text3"></p>
+    </div>
+
+    <!-- JS linking -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="js/mix-monster.js"></script>
+</body>
+</html>

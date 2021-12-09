@@ -1,0 +1,103 @@
+/* eggのサイズ調整 */
+
+body {
+    background-image: url(backgroundimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    overflow: auto;
+}
+
+body h1 {
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: white;
+    font-size: 100%;
+}
+
+body h2 {
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: white;
+    font-size: 100%;
+}
+
+body p {
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: white;
+    font-size: 100%;
+}
+
+/* eggのサイズ調整 */
+.egg-img{
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.egg-img img {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+}
+
+.egg-img :hover {
+    opacity: 30%;
+}
+
+.egg-img2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.egg-img2 img {
+        animation: poyopoyo 2s ease-out infinite;
+        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        width: 200px;
+        height: auto;
+      }
+      @keyframes poyopoyo {
+        0%, 40%, 60%, 80% {
+          transform: scale(1.0);
+        }
+        50%, 70% {
+          transform: scale(0.95);
+        }
+      }
+
+/* モンスターの調整 */
+
+.monster {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.monster img {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+
