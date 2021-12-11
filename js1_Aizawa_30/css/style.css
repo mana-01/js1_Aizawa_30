@@ -4,8 +4,8 @@ body {
     background-image: url(backgroundimg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
-    overflow: auto;
+    background-size: cover;
+    height: 100vh;
 }
 
 body h1 {
@@ -61,6 +61,8 @@ body p {
     margin-bottom: 50px;
 }
 
+
+/* 3ページ目の調整 */
 .egg-img2 img {
         animation: poyopoyo 2s ease-out infinite;
         opacity: 1;
@@ -79,7 +81,16 @@ body p {
         }
       }
 
-/* モンスターの調整 */
+#egg_text {
+    height: auto;
+    width: auto;
+
+}
+
+/* 3ページ目の調整 */
+
+
+/* 4ページ目、モンスターページの調整 */
 
 .monster {
     margin-top: 50px;

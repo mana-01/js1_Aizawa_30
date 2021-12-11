@@ -1,0 +1,50 @@
+body {
+  background: url(Cover.png) center center / cover no-repeat fixed;
+  height: 100vh; /* 全画面表示 */
+
+}
+
+body {
+	/* じわっと画像が表示される */
+ 	animation: fadeIn 3s ease 0s 1 normal;
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
+}
+ 
+/* じわっと画像が表示される */
+@keyframes fadeIn { /*上のbody内で呼び出しているアニメーションと名前をそろえる*/
+    0% {opacity: 0} /* 始め */
+    100% {opacity: 1} /* 終わり */
+}
+ 
+/*古いブラウザ用*/
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.cover {
+    text-align: center;
+    justify-content: center;
+}
+
+.cover_egg img {
+    margin: auto;
+    width: 200px;
+    height: auto;
+    text-align: center;
+	/* じわっと画像が表示される */
+ 	animation: fadeIn 3s ease 0s 1 normal;
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
+}
+ 
+/* じわっと画像が表示される ---------　一度追加していたら不要*/
+@keyframes fadeIn { /*上のbody内で呼び出しているアニメーションと名前をそろえる*/
+    0% {opacity: 0} /* 始め */
+    100% {opacity: 1} /* 終わり */
+}
+ 
+/*古いブラウザ用　---------　一度追加していたら不要*/
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}

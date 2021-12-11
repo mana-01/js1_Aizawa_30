@@ -17,11 +17,6 @@ var rnd;
 function changeIMG(){
    rnd = Math.floor( Math.random()*img.length );
   document.getElementById("monster").src=img[rnd].src;
-}
-
-function changeIMG(){
-   rnd = Math.floor( Math.random()*img.length );
-  document.getElementById("monster").src=img[rnd].src;
 
   if (rnd===0) {
    $("#result").html("ドラゴンが生まれた！");
@@ -49,3 +44,4 @@ function changeIMG(){
    $("#result_text3").html("霊感や不死の象徴とされ、「教養」や「名声」の象徴であるともいわれている。")
 }
 }
+
